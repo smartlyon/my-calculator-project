@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <input type="text" value="0" id="screen-display" disabled>
+            <div class="keys">
+                <button id="ac" onclick="ac()">AC</button>
+                <button id="sqrt" onclick="sqrt()">√</button>
+                <button id="cap" onclick="cap()">^</button>
+                <button id="devide" onclick="divide()" class="operator">/</button>
+
+                <button id="seven" onclick="seven()" class="number">7</button>
+                <button id="eight" onclick="eight()" class="number">8</button>
+                <button id="nine" onclick="nine()" class="number">9</button>
+                <button id="multiply" onclick="multiply()" class="operator">x</button>
+
+                <button id="four" onclick="four()" class="number">4</button>
+                <button id="five" onclick="five()" class="number">5</button>
+                <button id="six" onclick="six()" class="number">6</button>
+                <button id="minus" onclick="minus()" class="operator">-</button>
+
+                <button id="one" onclick="one()" class="number">1</button>
+                <button id="two" onclick="two()" class="number">2</button>
+                <button id="three" onclick="three()" class="number">3</button>
+                <button id="plus" onclick="plus()" class="operator">+</button>
+                
+                <button id="zero" onclick="zero()" class="number">0</button>
+                <button id="dot" onclick="dot()">.</button>
+                <button id="equals" onclick="equals()">=</button>
+            </div>        
+        </div>
+    </main>
+    <script src="./counter.js"></script>
+    
+</body>
+</html>
+
